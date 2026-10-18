@@ -1,35 +1,309 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171411">
-<title>Brasa 77 | Burger & Brasa</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10100f">
+<meta name="description" content="Brasa 77 Lounge — hambúrgueres artesanais preparados na brasa.">
+<title>Brasa 77 Lounge | Burger & Grill</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#171411;--panel:#211d19;--cream:#f2e9da;--gold:#d4ac70;--red:#a73527;--muted:#b9afa1}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.announce{background:var(--red);text-align:center;padding:10px;font-size:10px;letter-spacing:.2em;text-transform:uppercase}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 6%;border-bottom:1px solid #ffffff20}.brand{font-weight:700;letter-spacing:-1px;font-size:24px;white-space:nowrap}.brand span{display:block;font-size:9px;letter-spacing:.25em;color:var(--gold);margin-top:5px}.navlinks{display:flex;gap:28px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.navlinks a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--red);border:1px solid var(--red);color:white;padding:15px 21px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;transition:.2s}.btn:hover{background:#84281f}.outline{background:transparent;border-color:#ffffff60}.hero{min-height:590px;display:grid;grid-template-columns:45% 55%;position:relative}.hero-copy{padding:65px 7% 70px 13%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.eyebrow,.kicker{font-size:10px;color:var(--gold);letter-spacing:.23em;text-transform:uppercase}.hero h1{font:600 clamp(48px,5.4vw,77px)/1.02 'Playfair Display',serif;letter-spacing:-1.8px;margin:22px 0}.hero h1 em{color:var(--gold);font-weight:500}.hero p{max-width:390px;color:#c7bdb0;line-height:1.9;font-size:14px;margin:0 0 28px}.hero-img{min-height:500px;position:relative;overflow:hidden}.hero-img img{position:absolute;width:100%;height:100%;object-fit:cover}.hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#17141160,transparent 30%),linear-gradient(0deg,#17141180,transparent 40%)}.seal{position:absolute;z-index:1;right:28px;bottom:28px;border:1px solid #ffffffa0;border-radius:50%;width:100px;height:100px;display:grid;place-content:center;text-align:center;font-size:10px;letter-spacing:.15em;line-height:1.7}.section{padding:78px 8%}.about{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:#e9dfd0;color:#211b16}.about-photo{height:380px;position:relative}.about-photo img{width:100%;height:100%;object-fit:cover}.kicker.dark{color:var(--red)}h2{font:600 clamp(34px,4vw,52px)/1.1 'Playfair Display',serif;margin:16px 0 20px}.about p,.menu-intro p{font-size:14px;line-height:1.9;color:#74695d}.caption{position:absolute;bottom:14px;left:14px;background:#f2e9da;color:#211b16;padding:12px 15px;font-size:10px;letter-spacing:.1em;text-transform:uppercase}.menu-section{background:#28221c;text-align:center}.menu-intro{max-width:620px;margin:0 auto 38px}.menu-intro p{color:#c1b5a5}.menu-stage{max-width:960px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center;text-align:left}.menu-cover{min-height:420px;position:relative;overflow:hidden;background:#171411;border:1px solid #b78b4e;padding:14px}.cover-inner{min-height:390px;border:1px solid #b78b4e;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.cover-inner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.43}.cover-inner:after{content:"";position:absolute;inset:0;background:linear-gradient(#17141155,#171411d9)}.cover-title{position:relative;z-index:1}.cover-title .mini{font-size:10px;letter-spacing:.3em;color:var(--gold)}.cover-title h3{font:600 49px/.95 'Playfair Display',serif;margin:17px 0}.cover-title p{font-size:10px;letter-spacing:.2em}.menu-side h3{font:600 30px 'Playfair Display',serif;margin:0 0 15px}.menu-side p{font-size:13px;line-height:1.8;color:#c1b5a5}.menu-side .btn{margin-top:15px}.menu-side .small{font-size:10px;color:#a99d8d;margin-top:12px}.story{display:grid;grid-template-columns:1fr 1fr;background:#e9dfd0;color:#211b16}.story-image img{width:100%;height:100%;min-height:400px;object-fit:cover}.story-copy{padding:70px 12%;display:flex;flex-direction:column;justify-content:center}.story-copy p{font-size:14px;line-height:1.9;color:#74695d}.quote{border-left:2px solid var(--red);padding-left:18px;font:italic 19px/1.5 'Playfair Display',serif;margin-top:14px}.contact{padding:65px 8%;display:flex;justify-content:space-between;align-items:center;gap:30px}.contact h2{margin:12px 0}.contact p{color:#c1b5a5;font-size:13px;line-height:1.8}.socials{display:flex;gap:12px;flex-wrap:wrap}footer{border-top:1px solid #ffffff20;padding:30px 6% 130px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:10px;letter-spacing:.1em;color:#a99d8d;text-transform:uppercase}.socials a{border:1px solid #ffffff40;padding:12px 15px}.socials a:hover{border-color:var(--gold);color:var(--gold)}.mobile-order{display:none}.modal{display:none;position:fixed;inset:0;z-index:20;background:#090807ed;padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.book{width:min(960px,100%);max-height:92vh;overflow:auto;background:#eee3d1;color:#201913;position:relative;box-shadow:0 25px 90px #0009}.book-head{display:flex;justify-content:space-between;align-items:center;padding:17px 22px;border-bottom:1px solid #c9bba6;font-size:10px;letter-spacing:.13em;text-transform:uppercase}.close{border:0;background:transparent;font-size:25px;color:inherit}.book-pages{display:grid;grid-template-columns:1fr 1fr;min-height:400px}.book-page{padding:28px;border-right:1px solid #d0c1ab}.book-page:last-child{border:0}.page-label{font-size:9px;letter-spacing:.2em;color:#9c3528;text-transform:uppercase}.dish{display:grid;grid-template-columns:105px 1fr;gap:14px;margin:22px 0 25px;align-items:center}.dish img{width:105px;height:100px;object-fit:cover}.dish h4{font:600 19px 'Playfair Display',serif;margin:0 0 5px}.dish p{font-size:11px;line-height:1.6;color:#74695d;margin:0 0 7px}.dish b{font-size:12px}.book-controls{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-top:1px solid #c9bba6}.book-controls button{background:#211b16;color:white;border:0;padding:12px 18px;font-size:10px;letter-spacing:.1em;text-transform:uppercase}.book-controls button:disabled{opacity:.3;cursor:not-allowed}.back-cover{min-height:380px;display:grid;place-content:center;text-align:center;padding:35px}.back-cover h2{font-size:38px}.back-cover p{line-height:1.8;color:#74695d}
-@media(max-width:760px){.nav{padding:14px 5%;min-height:70px}.navlinks{display:none}.nav>.btn{padding:12px;font-size:9px}.hero{grid-template-columns:1fr}.hero-copy{padding:55px 7% 45px}.hero h1{font-size:54px}.hero-img{min-height:310px}.section{padding:58px 6%}.about{grid-template-columns:1fr;gap:26px}.about-photo{height:280px;order:-1}.menu-stage{grid-template-columns:1fr}.menu-cover{min-height:370px}.cover-inner{min-height:340px}.cover-title h3{font-size:43px}.menu-side{text-align:center;padding:8px 8px 15px}.story{grid-template-columns:1fr}.story-image img{min-height:280px;height:280px}.story-copy{padding:52px 7%}.contact{padding:52px 7%;display:block}.contact .btn{margin-top:10px}footer{align-items:flex-start;flex-direction:column;padding:25px 6% 145px}.mobile-order{display:block;position:fixed;z-index:10;bottom:10px;left:10px;right:10px;padding-bottom:env(safe-area-inset-bottom,0px)}.mobile-order .btn{width:100%;min-height:58px;box-shadow:0 8px 24px #0007}.book-pages{grid-template-columns:1fr}.book-page{border-right:0;border-bottom:1px solid #d0c1ab;padding:20px}.book-page:last-child{border-bottom:0}.dish{grid-template-columns:88px 1fr}.dish img{width:88px;height:88px}.modal{padding:8px}.book{max-height:96vh}}
-</style></head>
+:root{--bg:#10100f;--panel:#191917;--gold:#d9a441;--cream:#f5eddd;--muted:#a9a397;--line:#343129}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;border-bottom:1px solid #ffffff12;position:sticky;top:0;background:#10100ff2;backdrop-filter:blur(14px);z-index:20}
+.logo{font-family:'Playfair Display',serif;font-weight:800;font-size:25px;letter-spacing:1px}
+.logo span{color:var(--gold)}
+nav{display:flex;gap:30px;align-items:center;font-size:13px;color:#ddd6c8}
+nav a:hover{color:var(--gold)}
+.btn{display:inline-flex;justify-content:center;align-items:center;background:var(--gold);color:#17130c;padding:13px 21px;border:0;border-radius:3px;font-weight:700;font-size:13px;transition:.2s}
+.btn:hover{background:#efbd60;transform:translateY(-2px)}
+.hero{min-height:590px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:45px;padding:75px 9%;background:radial-gradient(ellipse at 80% 50%,#47351c40,transparent 55%)}
+.eyebrow{font-size:11px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase;margin-bottom:20px}
+h1,h2,h3{font-family:'Playfair Display',serif}
+h1{font-size:clamp(42px,6vw,76px);line-height:1.05;margin-bottom:24px}
+h1 span{color:var(--gold)}
+.hero p{color:var(--muted);font-size:15px;line-height:1.9;max-width:450px;margin-bottom:30px}
+.hero-img{width:100%;height:400px;object-fit:cover;border-radius:4px;box-shadow:0 25px 65px #0008}
+.hero-actions{display:flex;align-items:center;gap:24px}
+.text-link{font-size:13px;border-bottom:1px solid var(--gold);padding-bottom:5px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);padding:27px 8%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#151513}
+.feature{text-align:center;padding:7px 15px;border-right:1px solid var(--line)}
+.feature:last-child{border:0}
+.feature strong{display:block;color:var(--gold);font-size:12px;letter-spacing:1.5px;margin-bottom:7px}
+.feature span{font-size:12px;color:var(--muted)}
+.menu-section{padding:100px 7%;text-align:center}
+.section-title{font-size:clamp(32px,4vw,48px);margin-bottom:15px}
+.section-copy{color:var(--muted);font-size:14px;line-height:1.8;max-width:550px;margin:0 auto 42px}
+.cover{max-width:650px;min-height:340px;margin:0 auto;position:relative;overflow:hidden;border:1px solid #9c7537;background:linear-gradient(130deg,#211b11,#3b2a15 50%,#17130d);display:flex;align-items:center;justify-content:center;padding:40px;cursor:pointer;box-shadow:0 25px 65px #0006;transition:.3s}
+.cover:hover{transform:translateY(-5px)}
+.cover:before,.cover:after{content:"";position:absolute;inset:12px;border:1px solid #d9a44155;pointer-events:none}
+.cover:after{inset:18px;border-color:#d9a44125}
+.cover-inner{position:relative;z-index:1}
+.cover-mark{font-size:12px;letter-spacing:6px;color:var(--gold);margin-bottom:22px}
+.cover h2{font-size:clamp(42px,7vw,65px);line-height:1.05}
+.cover h2 span{color:var(--gold)}
+.cover p{font-size:11px;letter-spacing:4px;margin-top:20px;color:#d0c1a4}
+.cover-cta{display:inline-block;margin-top:28px;background:var(--gold);color:#17130c;padding:12px 20px;font-size:11px;font-weight:700;letter-spacing:1px}
+.tap-hint{color:var(--muted);font-size:12px;margin-top:22px}
+.book-overlay{display:none;position:fixed;inset:0;background:#000d;z-index:100;align-items:center;justify-content:center;padding:15px;backdrop-filter:blur(7px)}
+.book-overlay.active{display:flex}
+.book{width:min(950px,100%);max-height:90vh;overflow:auto;background:#f5eddd;color:#2a241b;box-shadow:0 20px 80px #000a;position:relative}
+.book-head{background:#211b11;color:var(--cream);padding:23px 30px;display:flex;justify-content:space-between;align-items:center}
+.book-head h2{font-size:23px}
+.close-btn{background:transparent;color:white;border:1px solid #8e7850;width:38px;height:38px;font-size:24px}
+.book-content{padding:35px}
+.book-title{text-align:center;margin-bottom:30px}
+.book-title .eyebrow{margin-bottom:9px}
+.book-title h2{font-size:35px;color:#312517}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.menu-column{border-right:1px solid #d6c9b3;padding-right:24px}
+.menu-column:last-child{border:0;padding-right:0}
+.column-title{font-family:'Playfair Display',serif;font-size:23px;border-bottom:2px solid #9e762e;padding-bottom:10px;margin-bottom:20px}
+.item{display:grid;grid-template-columns:82px 1fr;gap:13px;margin-bottom:22px;align-items:start}
+.item img{width:82px;height:82px;object-fit:cover;background:#ddd}
+.item h3{font-size:17px;margin-bottom:5px;color:#302519}
+.item p{font-size:11px;line-height:1.5;color:#776d5e;margin-bottom:7px}
+.price{font-size:13px;font-weight:700;color:#8b5d17}
+.book-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:18px 30px;background:#e8decc;border-top:1px solid #d6c9b3}
+.page-btn{border:0;background:#302519;color:#fff;padding:12px 18px;font-size:12px}
+.page-btn:disabled{opacity:.35;cursor:not-allowed}
+#counter{font-size:11px;letter-spacing:1px;color:#695b48}
+.about{padding:90px 9%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:55px;background:#171715}
+.about img{width:100%;height:340px;object-fit:cover}
+.about h2{font-size:clamp(32px,4vw,46px);margin-bottom:20px}
+.about p{color:var(--muted);font-size:14px;line-height:1.9;margin-bottom:16px}
+footer{padding:32px 7%;display:flex;justify-content:space-between;gap:20px;align-items:center;color:var(--muted);font-size:11px}
+footer strong{color:var(--gold);letter-spacing:2px}
+@media(max-width:700px){
+header{height:68px;padding:0 5%}.logo{font-size:21px}nav{gap:13px;font-size:11px}nav .nav-about{display:none}nav .btn{padding:10px 12px;font-size:11px}
+.hero{grid-template-columns:1fr;padding:60px 6%;gap:35px}.hero-img{height:280px}.hero h1{font-size:51px}
+.features{padding:22px 3%}.feature{padding:5px}.feature strong{font-size:10px;letter-spacing:.5px}.feature span{font-size:10px}
+.menu-section{padding:75px 5%}.cover{min-height:300px;padding:25px}
+.about{grid-template-columns:1fr;padding:65px 6%;gap:30px}.about img{height:250px}
+.book-content{padding:24px 17px}.menu-grid{grid-template-columns:1fr;gap:12px}.menu-column{border-right:0;border-bottom:1px solid #d6c9b3;padding:0 0 10px}.menu-column:last-child{border:0}.book-title h2{font-size:29px}
+.item{grid-template-columns:72px 1fr;gap:12px}.item img{width:72px;height:72px}.book-head{padding:17px 20px}.book-head h2{font-size:19px}.book-controls{padding:14px}.page-btn{padding:11px 12px;font-size:11px}
+footer{padding:25px 5%;flex-direction:column;text-align:center}
+}
+</style>
+</head>
 <body>
-<div class="announce">Burger artesanal · fogo de verdade · sabor sem atalhos</div>
-<header class="nav"><a class="brand" href="#">BRASA 77<span>BURGER & BRASA</span></a><nav class="navlinks"><a href="#casa">A casa</a><a href="#menu">Cardápio</a><a href="#historia">Nossa história</a></nav><a class="btn" href="#pedido">Peça agora ↗</a></header>
+<header>
+<a href="#" class="logo">BRASA <span>77</span></a>
+<nav>
+<a href="#inicio">Início</a>
+<a href="#cardapio">Cardápio</a>
+<a href="#sobre" class="nav-about">Nossa casa</a>
+<a href="#cardapio" class="btn">Ver cardápio ↗</a>
+</nav>
+</header>
+
 <main>
-<section class="hero"><div class="hero-copy"><div class="eyebrow">Acenda o apetite</div><h1>Tem coisa que só a <em>brasa</em> faz.</h1><p>Carne selada na chapa, queijo derretendo, pão tostado e ingredientes escolhidos de verdade. Burger sem atalhos, do primeiro ao último pedaço.</p><a class="btn" href="#menu">Explore nosso cardápio ↗</a></div><div class="hero-img"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1500&q=90" alt="Hambúrguer artesanal"><div class="seal">FOGO<br>•<br>SABOR<br>•<br>BRASA 77</div></div></section>
-<section class="section about" id="casa"><div><div class="kicker dark">Feito com intenção</div><h2>O simples bem-feito nunca sai de moda.</h2><p>Não precisa inventar demais quando os ingredientes falam por si. A gente cuida do ponto da carne, do pão tostado e da combinação certa para entregar um burger que dá vontade de repetir.</p><a href="#historia" class="btn" style="margin-top:14px">Conheça nossa essência</a></div><div class="about-photo"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1000&q=85" alt="Hambúrguer artesanal com queijo"><div class="caption">Preparado na hora</div></div></section>
-<section class="section menu-section" id="menu"><div class="menu-intro"><div class="kicker">Vire a página. Abra o apetite.</div><h2>Nosso cardápio é parte da experiência.</h2><p>Uma apresentação em formato de livro digital, com capa, páginas, fotos, descrições e valores. Os itens abaixo são exemplos editáveis para substituir pelos dados oficiais da casa.</p></div><div class="menu-stage"><div class="menu-cover"><div class="cover-inner"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=1000&q=85" alt=""><div class="cover-title"><div class="mini">BRASA 77 APRESENTA</div><h3>MENU<br>DA CASA</h3><p>BURGER · BRASA · BOA COMPANHIA</p><div style="font-size:25px;color:var(--gold);margin-top:22px">✳</div></div></div></div><div class="menu-side"><div class="kicker">Da capa à última página</div><h3>Escolha com os olhos. Peça com vontade.</h3><p>Abra o menu e explore os pratos. Cada item tem foto, nome, descrição e preço. A navegação permite folhear a capa, as páginas do menu e a contracapa.</p><button class="btn" id="openMenu">ABRIR CARDÁPIO ↗</button><div class="small">Toque para folhear o menu completo</div></div></div></section>
-<section class="story" id="historia"><div class="story-image"><img src="https://images.unsplash.com/photo-1555992336-03a23c7b20ee?auto=format&fit=crop&w=1100&q=85" alt="Interior acolhedor de restaurante"></div><div class="story-copy"><div class="kicker dark">Nossa história, nosso fogo</div><h2>Um bom burger aproxima as pessoas.</h2><p>A Brasa 77 nasceu da ideia de fazer o básico muito bem: comida honesta, ambiente acolhedor e sabor que vira motivo para voltar. Para dividir com os amigos ou aproveitar o seu momento.</p><div class="quote">“A melhor parte da noite pode estar entre duas fatias de pão.”</div></div></section>
-<section class="contact" id="pedido"><div><div class="kicker">Vamos matar essa fome?</div><h2>Seu próximo favorito<br>está a um clique.</h2><p>Fale com a gente para consultar o menu, os horários e as opções de pedido.</p></div><a class="btn order-link" href="https://wa.me/" target="_blank" rel="noreferrer">Pedir pelo WhatsApp ↗</a></section>
+<section class="hero" id="inicio">
+<div>
+<div class="eyebrow">Burger • Grill • Lounge</div>
+<h1>Feito na brasa.<br><span>Feito pra você.</span></h1>
+<p>Ingredientes selecionados, carne no ponto e aquele sabor defumado que transforma qualquer encontro em um momento especial.</p>
+<div class="hero-actions">
+<a href="#cardapio" class="btn">Explorar cardápio</a>
+<a href="#sobre" class="text-link">Conheça a Brasa 77</a>
+</div>
+</div>
+<img class="hero-img" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=85" alt="Hambúrguer artesanal preparado na brasa">
+</section>
+
+<section class="features">
+<div class="feature"><strong>NA BRASA</strong><span>Sabor marcante e autêntico</span></div>
+<div class="feature"><strong>INGREDIENTES FRESCOS</strong><span>Qualidade em cada detalhe</span></div>
+<div class="feature"><strong>FEITO NA HORA</strong><span>Preparado especialmente pra você</span></div>
+</section>
+
+<section class="menu-section" id="cardapio">
+<div class="eyebrow">Uma experiência à parte</div>
+<h2 class="section-title">Nosso cardápio</h2>
+<p class="section-copy">Cada combinação tem personalidade. Abra nosso menu e descubra seu próximo favorito.</p>
+<div class="cover" role="button" tabindex="0" onclick="openBook()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBook()}">
+<div class="cover-inner">
+<div class="cover-mark">EST. • BRASA 77</div>
+<h2>BRASA <span>77</span></h2>
+<p>BURGER · GRILL · LOUNGE</p>
+<div class="cover-cta">ABRIR CARDÁPIO &nbsp; ↗</div>
+</div>
+</div>
+<div class="tap-hint">Toque na capa para abrir o cardápio digital</div>
+</section>
+
+<section class="about" id="sobre">
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=85" loading="lazy" alt="Ambiente acolhedor de restaurante">
+<div>
+<div class="eyebrow">Mais que um hambúrguer</div>
+<h2>Seu lugar.<br>Sua brasa.</h2>
+<p>A Brasa 77 nasceu da paixão por comida de verdade, bons ingredientes e momentos compartilhados ao redor da mesa.</p>
+<p>Do primeiro ingrediente ao último detalhe, nossa proposta é entregar sabor, qualidade e uma experiência que dá vontade de repetir.</p>
+<a href="#cardapio" class="btn">Descubra o cardápio</a>
+</div>
+</section>
 </main>
-<footer><a class="brand" href="#">BRASA 77<span>BURGER & BRASA</span></a><div>Comida de verdade. Feita com fogo.</div><div class="socials"><a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://facebook.com/" target="_blank" rel="noreferrer">Facebook ↗</a></div></footer>
-<div class="mobile-order"><a class="btn order-link" href="https://wa.me/" target="_blank" rel="noreferrer">Pedir pelo WhatsApp ↗</a></div>
-<div class="modal" id="menuModal" role="dialog" aria-modal="true" aria-label="Cardápio Brasa 77"><div class="book"><div class="book-head"><span id="pageHeading">Brasa 77 · Menu da casa</span><button class="close" id="closeMenu" aria-label="Fechar cardápio">×</button></div><div id="bookContent"></div><div class="book-controls"><button id="prevPage">← Anterior</button><span id="pageNumber" style="font-size:10px"></span><button id="nextPage">Próxima →</button></div></div></div>
+
+<footer>
+<a href="#" class="logo">BRASA <span>77</span></a>
+<span>BURGER · GRILL · LOUNGE</span>
+<strong>SABOR QUE MARCA.</strong>
+</footer>
+
+<div class="book-overlay" id="bookOverlay" role="dialog" aria-modal="true" aria-label="Cardápio Brasa 77">
+<div class="book">
+<div class="book-head">
+<h2>BRASA <span style="color:#d9a441">77</span> <small style="font:10px 'DM Sans';letter-spacing:2px"> · MENU</small></h2>
+<button class="close-btn" onclick="closeBook()" aria-label="Fechar cardápio">×</button>
+</div>
+<div class="book-content">
+<div class="book-title">
+<div class="eyebrow" style="color:#92671f">BRASA 77 LOUNGE</div>
+<h2 id="pageTitle">Os favoritos da casa</h2>
+</div>
+<div class="menu-grid">
+<div class="menu-column">
+<h3 class="column-title" id="leftTitle">Burgers da casa</h3>
+<div id="leftMenu"></div>
+</div>
+<div class="menu-column">
+<h3 class="column-title" id="rightTitle">Mais para provar</h3>
+<div id="rightMenu"></div>
+</div>
+</div>
+</div>
+<div class="book-controls">
+<button class="page-btn" id="prevBtn" onclick="turn(-1)">← Anterior</button>
+<span id="counter">PÁGINA 1 / 3</span>
+<button class="page-btn" id="nextBtn" onclick="turn(1)">Próxima →</button>
+</div>
+</div>
+</div>
+
 <script>
-// Edite os produtos neste array quando tiver o cardápio oficial. Não publique valores fictícios como definitivos.
-const products=[
- {title:'Clássico da Brasa (exemplo)',price:'—',desc:'Substitua pela descrição oficial do produto.',img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=85'},
- {title:'Cheese & Bacon (exemplo)',price:'—',desc:'Substitua pela descrição oficial do produto.',img:'https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=500&q=85'},
- {title:'Duplo na Brasa (exemplo)',price:'—',desc:'Substitua pela descrição oficial do produto.',img:'https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=500&q=85'},
- {title:'Batata da Casa (exemplo)',price:'—',desc:'Substitua pela descrição oficial do produto.',img:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=85'}
+const pages = [
+{
+title:"Os favoritos da casa",
+leftTitle:"Burgers da casa",
+rightTitle:"Combinações especiais",
+left:[
+["Brasa Clássico","Blend artesanal, queijo, alface, tomate e molho da casa.","R$ 29,90","https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=250&q=75"],
+["Cheddar & Bacon","Hambúrguer artesanal, cheddar cremoso e bacon crocante.","R$ 34,90","https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=250&q=75"],
+["Duplo Brasa","Dois blends, queijo derretido e molho especial no pão tostado.","R$ 39,90","https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=250&q=75"]
+],
+right:[
+["BBQ Supreme","Blend artesanal, queijo, cebola caramelizada e barbecue.","R$ 36,90","https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=250&q=75"],
+["Crispy Chicken","Frango crocante, queijo, alface e maionese especial.","R$ 31,90","https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=250&q=75"],
+["Veggie Brasa","Hambúrguer vegetal, folhas frescas, tomate e molho da casa.","R$ 32,90","https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=250&q=75"]
+]
+},
+{
+title:"Acompanhamentos & porções",
+leftTitle:"Para compartilhar",
+rightTitle:"Bebidas",
+left:[
+["Batata Frita","Porção de batatas douradas e crocantes.","R$ 18,90","https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=250&q=75"],
+["Batata com Cheddar","Batatas crocantes cobertas com cheddar cremoso.","R$ 25,90","https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=250&q=75"],
+["Onion Rings","Anéis de cebola empanados e crocantes.","R$ 21,90","https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=250&q=75"]
+],
+right:[
+["Refrigerante","Consulte os sabores e tamanhos disponíveis.","A partir de R$ 6,00","https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=250&q=75"],
+["Suco Natural","Consulte os sabores disponíveis.","A partir de R$ 9,00","https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=250&q=75"],
+["Água","Consulte as opções disponíveis.","A partir de R$ 4,00","https://images.unsplash.com/photo-1559839914-17aae19cec71?auto=format&fit=crop&w=250&q=75"]
+]
+},
+{
+title:"Para fechar com chave de ouro",
+leftTitle:"Sobremesas",
+rightTitle:"Sugestões da casa",
+left:[
+["Brownie","Brownie de chocolate com textura macia.","R$ 14,90","https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=250&q=75"],
+["Milk-shake","Cremoso e preparado na hora. Consulte os sabores.","R$ 18,90","https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=250&q=75"],
+["Petit Gâteau","Bolo de chocolate com interior cremoso.","R$ 19,90","https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=250&q=75"]
+],
+right:[
+["Combo Individual","Burger clássico, batata e bebida.","Consulte o valor","https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=250&q=75"],
+["Combo Duplo","Dois burgers e acompanhamentos para compartilhar.","Consulte o valor","https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=250&q=75"],
+["Especial da Casa","Pergunte à equipe sobre a sugestão do dia.","Consulte o valor","https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=250&q=75"]
+]
+}
 ];
-let page=0;const modal=document.getElementById('menuModal');
-function renderBook(){let content='';const last= Math.ceil(products.length/2)+1;if(page===0){content='<div style="padding:22px"><div class="menu-cover"><div class="cover-inner"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=1000&q=85" alt=""><div class="cover-title"><div class="mini">BRASA 77 APRESENTA</div><h3>MENU<br>DA CASA</h3><p>BURGER · BRASA · BOA COMPANHIA</p></div></div></div><p style="text-align:center;font:italic 17px Playfair Display;margin:20px">Feito na hora. Feito para lembrar.</p></div>';}else if(page===last){content='<div class="back-cover"><div class="page-label">Obrigado pela visita</div><h2>A brasa continua acesa.</h2><p>Esperamos ver você em breve.<br>Comida de verdade. Feita com fogo.</p><div style="font-size:36px;color:#9c3528">✳</div></div>';}else{const start=(page-1)*2;const group=products.slice(start,start+2);content='<div class="book-pages">'+group.map(p=>'<article class="book-page"><div class="page-label">Menu da casa · exemplo editável</div><div class="dish"><img src="'+p.img+'" alt="'+p.title+'"><div><h4>'+p.title+'</h4><p>'+p.desc+'</p><b>'+(p.price==='—'?'Preço a confirmar':'R$ '+p.price)+'</b></div></div></article>').join('')+'</div>'; }document.getElementById('bookContent').innerHTML=content;document.getElementById('pageNumber').textContent='Página '+(page+1)+' de '+(last+1);document.getElementById('prevPage').disabled=page===0;document.getElementById('nextPage').disabled=page===last;}
-document.getElementById('openMenu').onclick=()=>{page=0;renderBook();modal.classList.add('open');document.body.style.overflow='hidden'};function closeBook(){modal.classList.remove('open');document.body.style.overflow=''}document.getElementById('closeMenu').onclick=closeBook;modal.addEventListener('click',e=>{if(e.target===modal)closeBook()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBook()});document.getElementById('prevPage').onclick=()=>{if(page>0){page--;renderBook()}};document.getElementById('nextPage').onclick=()=>{if(page<Math.ceil(products.length/2)+1){page++;renderBook()}};
-</script></body></html>
+
+let current=0;
+const placeholder="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=250&q=75";
+
+function makeItem(item){
+const el=document.createElement("article");
+el.className="item";
+const img=document.createElement("img");
+img.loading="lazy";
+img.src=item[3];
+img.alt=item[0];
+img.onerror=()=>{img.onerror=null;img.src=placeholder};
+const info=document.createElement("div");
+const name=document.createElement("h3");
+name.textContent=item[0];
+const desc=document.createElement("p");
+desc.textContent=item[1];
+const price=document.createElement("div");
+price.className="price";
+price.textContent=item[2];
+info.append(name,desc,price);
+el.append(img,info);
+return el;
+}
+
+function render(){
+const page=pages[current];
+document.getElementById("pageTitle").textContent=page.title;
+document.getElementById("leftTitle").textContent=page.leftTitle;
+document.getElementById("rightTitle").textContent=page.rightTitle;
+const left=document.getElementById("leftMenu");
+const right=document.getElementById("rightMenu");
+left.replaceChildren(...page.left.map(makeItem));
+right.replaceChildren(...page.right.map(makeItem));
+document.getElementById("counter").textContent=`PÁGINA ${current+1} / ${pages.length}`;
+document.getElementById("prevBtn").disabled=current===0;
+document.getElementById("nextBtn").disabled=current===pages.length-1;
+}
+
+function openBook(){
+current=0;
+render();
+document.getElementById("bookOverlay").classList.add("active");
+document.body.style.overflow="hidden";
+document.getElementById("bookOverlay").querySelector(".close-btn").focus();
+}
+
+function closeBook(){
+document.getElementById("bookOverlay").classList.remove("active");
+document.body.style.overflow="";
+}
+
+function turn(direction){
+const next=current+direction;
+if(next<0||next>=pages.length)return;
+current=next;
+render();
+document.querySelector(".book-content").scrollTop=0;
+}
+
+document.getElementById("bookOverlay").addEventListener("click",event=>{
+if(event.target.id==="bookOverlay")closeBook();
+});
+document.addEventListener("keydown",event=>{
+if(event.key==="Escape")closeBook();
+if(document.getElementById("bookOverlay").classList.contains("active")){
+if(event.key==="ArrowRight")turn(1);
+if(event.key==="ArrowLeft")turn(-1);
+}
+});
+render();
+</script>
+</body>
+</html>
