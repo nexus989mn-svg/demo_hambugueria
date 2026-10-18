@@ -94,6 +94,13 @@ header{height:68px;padding:0 5%}.logo{font-size:21px}nav{gap:13px;font-size:11px
 .item{grid-template-columns:72px 1fr;gap:12px}.item img{width:72px;height:72px}.book-head{padding:17px 20px}.book-head h2{font-size:19px}.book-controls{padding:14px}.page-btn{padding:11px 12px;font-size:11px}
 footer{padding:25px 5%;flex-direction:column;text-align:center}
 }
+
+.social-links{display:flex;align-items:center;justify-content:center;gap:12px}
+.social-links a{width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:50%;color:var(--gold);transition:background .2s,border-color .2s,transform .2s}
+.social-links a svg{width:21px;height:21px;fill:currentColor}
+.social-links a:hover{background:var(--gold);border-color:var(--gold);color:#17130c;transform:translateY(-3px)}
+.social-links a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
 </style>
 </head>
 <body>
@@ -159,9 +166,15 @@ footer{padding:25px 5%;flex-direction:column;text-align:center}
 <span>BURGER · GRILL · LOUNGE</span>
 
 <div class="social-links" aria-label="Redes sociais">
-  <a href="https://wa.me/55SEUDDDSEUNUMERO" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-  <a href="https://www.instagram.com/SEUINSTAGRAM/" target="_blank" rel="noopener noreferrer">Instagram</a>
-  <a href="https://www.facebook.com/SUAPAGINA/" target="_blank" rel="noopener noreferrer">Facebook</a>
+  <a href="https://wa.me/55SEUDDDSEUNUMERO" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L0 24l6.5-1.7a12 12 0 0 0 5.6 1.4h.1C18.7 23.7 24 18.4 24 11.9c0-3.2-1.2-6.2-3.5-8.4ZM12.2 21.7c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.9 1 1-3.8-.3-.4a9.8 9.8 0 1 1 8.6 4.8Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.2 3.4 5.4 4.8.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/SEUINSTAGRAM/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7Zm5 2.3a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 2.2a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6Zm5.7-3.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Z"/></svg>
+  </a>
+  <a href="https://www.facebook.com/SUAPAGINA/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.3c0-3 1.8-4.7 4.5-4.7 1.3 0 2.6.2 2.6.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12Z"/></svg>
+  </a>
 </div>
 
 <strong>SABOR QUE MARCA.</strong>
