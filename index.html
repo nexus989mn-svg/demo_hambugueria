@@ -102,7 +102,41 @@ footer{padding:25px 5%;flex-direction:column;text-align:center}
 .social-links a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 
 
-/* Fundo Brasa 77 */
+/* Fundo Brasa 77 — imagem visível em toda a página */
+html {
+  background: #10100f;
+}
+body {
+  background-color: #10100f;
+  background-image:
+    linear-gradient(rgba(12,12,11,.42), rgba(12,12,11,.58)),
+    url('/images/brasa77-fundo.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero {
+  background: linear-gradient(90deg, rgba(16,16,15,.38), rgba(16,16,15,.12));
+}
+.features {
+  background: rgba(21,21,19,.70);
+}
+.menu-section {
+  background: rgba(16,16,15,.20);
+}
+.about {
+  background: rgba(23,23,21,.72);
+}
+header {
+  background: rgba(16,16,15,.88);
+}
+@media (max-width: 700px) {
+  body {
+    background-attachment: scroll;
+    background-size: auto 100%;
+  }
+}
 body {
   background-color: #10100f;
   background-image:
